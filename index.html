@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Clase Botstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pagina web de Eliza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instagram</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=e6AS35Fuhxc&pp=ygUcY2FzaSBtZSBwaWVyZG8gYnkgcm9wYSBzdWNpYQ%3D%3D" target="_blank">video de youtube</a></li>
+                            <li><a class="dropdown-item" href="#">Linkedin</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Spotify</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="card text-bg-primary mb-3" style="width: 18rem;">
+        <img src="https://yt3.ggpht.com/BKqdES_QnWLx6RoTR8IfhtkdTY64zaOtJsRlPkavBqTizKLStIHAV7hHg65shbh-hzjgCGjyZg=s176-c-k-c0x00ffffff-no-rj-mo" class="card-img-top" alt="Rammstein">
+        <div class="card-body">
+            <h5 class="card-title">Ropa Sucia</h5>
+            <p class="card-text">Grupo de música trap, con tres integrantes, Carlos, Yeicko, Erick. Suscribanse al canal</p>
+            <a href="https://www.youtube.com/watch?v=e6AS35Fuhxc&pp=ygUcY2FzaSBtZSBwaWVyZG8gYnkgcm9wYSBzdWNpYQ%3D%3D" class="btn btn-danger">Enlace a youtube</a>
+        </div>
+    </div>
+    <div class="card text-bg-dark mb-3" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJAAwQMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgEAB//EAEUQAAIBAwMBBAcEBggEBwAAAAECAwAEEQUSITETIkFRBhQyYXGBoVKRscEVI0Ji0eEWJDNygpLw8TRDU1QXc3STsrPC/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAmEQACAgICAQMEAwAAAAAAAAAAAQIRAxIhMRMiMkEEFCNhcYHB/9oADAMBAAIRAxEAPwD5jECmMUwtpOQG6+FBKu9A/iK8kuGB8RV0THgGWBq7A2jFK47wuME0TFKMdaZMAcvsmvKvOPGuQuHGBUlO1s46UwD23nkVdOBuBAwMUDNfAMxZcEdaGvNaClQi548aFowzYfqzQm4kVG31W3ktw0jBWPUeVSUrIpaNgVNGwMFupdqYFBiYEjnrRhgMrkNQs1k0T71IpWZUEMuLN5C46ZzSa4uS7o0eQw8aNuZkXTnww7RpMKh648TSZmYHI4FI2Uo0FvOZoRk4IHJ868l3B2iRSkr5segrP9vJjAcj4GvKWkb9YfhR3F0NoiAxKwZWHmCKEuNWggGIzvOflSJJpUQxq5WNvI9aqCqByufOm3Boa3T9RguQArYc+DUcDhjng5rCwqQzGMlQPI1otG1Ce62xugbA9rNNGd9iyhRoU5A+FT21TbNk4Pj0onFUEKygqto6JxXGFEwLsr1X7a9QMYZAMFQw9wzU44v2WPNAzqwlDYIB5FQlnkQ+2SPKuXY6KGiRDBK1OLIYqaWW98Ye6EBDdSaIh1WOJjvjJI8ulFSQKHVixWTaTzR7A5NJbfU7YlWcbHY9DzgeeaPn1G2RAxlU599PaBQv1RJo+7jut4+dKLjaYQS3IOKZ6pe+sxR4wADS3su2gK8E5zxU5BQLFJlWptpshEAXdjJ4oO2099x3kKCM0bbWaAgiTnpzRimjSpjOyuRJcGIjAAzuzRF2gaJsYJ8DQtvFHAjP+0fE0bAFmRSGBG7GRVRDKzwNGzBjznw6UPOuM0+1izKl2R8pnmgY7HtIuefKouLsopITomTRTx4CjxxRI059+FBxUb2B4ZAGHhWpoNoFG5DgGr5WKxJk+0OagThgDRM6drHGcqFVcZNAxC3wto5xyTTr0XaImVCMN4GgDBElkrGQZJrthKlqwkySN3gOaMeGBq0bK3j5BI6Vcpy1IINeXspGWI5Axljihl168YHskRAB4DJq7miWrNXjmqZ54IP7eVE9zMBmsU2q3Vw217ls+IJ2j8vwoZ9xJKODk9D4n6UPINobf9I2X/cLXqw/Z3X2YfrXqXysPjRXIC9rnnKHmhGIeMEdR1pnGu6QqPZlXI+NACPDvHiolCphlFYeHWvSp7LA9aujj3I491eWPfCR4qaBiEmezVgamzloFOfdXQha2ceK81yNMwOB4HgUTHk78D58DUrZmEUgDEYGcg4rtmm9JV/dzU9Oh7YyxjqUOKxi/TWeUtvYnPAyaNhQxsR1OaBtlEUqKTgmjrbDN7QJzVIiSRO/lzp9wvQ9mc1T6LyyLayoBlBKpHuqd/H/AFW4PjsNX+i9s5sCUUkmZcn4nAov3AS9IfrVmToFzeMPauhFj5ZpVo4/qCY+0341q/SSF4PRa5tnXvC/ck+R2CstoYxZqvkx/GhD3WGS4GkaLgZWua1YxPD2ixbZFUN/H6VahAIFETZuLwqTnJA5qr6Jox11FGZykfXPjUJ42t5dhIyOCM4q2/txb6s8IywEnB8xnNV3gE2pOQBgvjFc1ljt0UaOJSwGBzUJXEcaJkEHnFXa3HDDqBihbICgH44obVlWO5EceQAo6+dYJ31mNYNpXGfIYx866txstS6k5JwN3PFBXHBjUN0UZq/UU7KOCLIzs3HBzyaxjouJZIXcquF4++hoXkaTIJAHtFePwqUjMkCIPE5NSRjDZMx9qTgfCgY962fN/vrtBbq9Qsw5hbEKt4xsPuqV7CVu1YDh+c11E2XTR47kgwPyoliJNPDMO/A+1vgaYIKIhHICeh6++oxcTPFjANSuJd0SOvPhVbNiaOXwIFAx62YdoY/tAiq7UZkeM9SDUpB2V4G8M5FdcdjfjyLZ+RrAO6XgXiqehyDRmgRZ1dY8Hbhtx8qGhhIv+6eFbORT+1WCyvSoAVjJlieSeaZIDYqvYezu0zxzVAl7OZ2XoD1pjqYWW5PHstw3zpTdMYbmWOMZ3HmmfYF0GzXYntJVwNxGN1aX0GtobrRLyaY9kI5olVg/OQ/lWFUlW2joRR+hySKbhI8cpyDjnvDpnx5oNhjG3SN76aSrBo18gftnXUZtxB49lR/oVjdIDm1DAZ7x6Vz0lJG9EVkjF1PtDAZ529ceOB0q3RnXso4mOXcnGD4AUYO2GcWuGNLdTuXI5NMVhJvm2qfa9mqrFALmLPI3CnEGJNXJC8bzxVnwTSMjqunt+mrVipIkO0nyIpVbxRvrcQl/sjN3vhnmt9GnbXp7gcZY4PwNZe50RxciSzfcOSUbg/I+NRkueBwbUYLO71uRbRFKGTjB4P30jvv63fuIk5L8IvOBRJE9vdMMMjgElTxj30utnkhummjJ3IC2RSBB3YmbnzqU0naSk8+AFRDBtznk4qtD38mgYJuZBJNtUYUYAHur2oONyRIe7EoAFUw+0WPhzVZYsSc8mtZjma5XcHyr1AJppVje1jl/ajbafyoi2RJriSFWAW5jGORw3+9ea2MV3PatwHBA+PUUqEzpeIvCmPocdCMmmAibR92aHxU7q4EV7XOeUajL3C6kJR/ZzqG/zdfrQttH+slgPUg/eKATlxF20du0WWcjbgeY/lULzsX7Mm4jWRYwGPJAIH+3PPzq23bFhcgDDpgq2egJAP8AD50rjDs44YDPOeOKW3YySoaRy+rMuAG3DO7OQffTG8Iinjk3ZDqp8zyKSso9TU44ExCcY/ZGflnH31ZI7yRwszHAUqMf699PF8CSVMYazP2N1LHhg2fKl8gdpCIhuJ5Y1bq79pcK453RIT91H2UKxRqftoDTLkAHaWq+sKJVyTC7YPgQKvs0u4PWGsrW3YpbiVi6kkjIPdIPXOPfU4Z0m1ECM5xDJQVtqBh7eO4mu9n/AC+wkwYzu6jJx0GK5525NI7MLjGKcv8ABheX8z6gYriBbqCWQS7plLPl1XJDE+7xrtvFHFe2/ZrtzE+ceNKrrUzJZokUt0ZxIWeWSTJOVAwMeAI8aZzyrb3FozngxOvzzWhamrDkcXjdGo0lA9/bJ4GRR9asi12zt9YuTKG/VlwOOp5qXoXJHJr9k0jbVLgg0N6tp51bU5rs7oIxIQR4t4fUiuqTOEr0fWI7hp2kPZOqnAHiDV63VugklaRVCISc+FYl1JWd0BAGPHxJqsrL6hMQP20DH93vfntpXKkMlbNKdc0ibfBMjsGBQPt6ZOOPHz8KRXunWVuY3F4XtZGAMkZXcFPjjxpO8bo4xux4cZq27Zms4Q5PDNtznphfP35+tT2vsdx4Gg0zQkj3vfyNnw7VBn6UDJbaUX/Vzuiluu/IC8dTj40tcnaq+VdYY7vjgZ+NPaEHLW2hRQcXcrucE+R+nT50Z6x6MxscWqtjwKt/CsxMe/hegr2O6PMmhsY0/r/o3/2Mf/tmvVnfVZPsmvU2zMbb0ijx2V5DzkA599Z1wr6xye7MOPdkVq5jHPp8kI/YbKHzU8isbPlbrnII8qVgQbKDLpsZ/btn2MM8gHp9c1F37O5iuMcOAx/OmGi7Gu57fhkv4NgHjv6ryf3hj50O0SSaY20MJ4JsHPQKR/EUBiqOPsNVaLwZio8iD0/KgHMCSENBKuDgqrDGfiRx0Pv58aY6vBJHDDMwKM8PXPiOP4VnyzNG2WY94Hk+6s0ZOg6e47bIVEjjT2I1JO0fE9T5nxqxXLWKjbwknLfEfyquxt3uMRxqWYoWAAx0GfyNWRQOYbhVGQqhyQOgBA/OigMjPJ2gjJ8I8fdTy3PdtsDPdWlctmE0i1us5LSyRsPLbtI+jU2SILBYuD7aDPyOKZAANEw9zkA/8G3tf+Y1LpwqNOXBzuOAD+9TTRv+LP8A6Nv/AJtS+YHN0FPO89f71cqf5GdjX4kDoIzbuVVgwznyxg/yp5rKhRZHnIE3P+E0oGRZsW+1x0+yadaySUtfcsuP8jUJP1oMUvHL+h96JMP0hpxxwNhx/hqGlmK5i1hZgSxiZ0I8DuFX+h6FtRsu8M7Mk/4KE0mJ1tNWuF9kIqkjyLj+Fdb6RxfIpe3EdvcHjBdAB7+amI9mnDaAQ7kFSMhgB4j506mjtW9HcRkes+uk7j4qEHH1qjWbR4vR+1K7lZ0diI8ZIzjx8OPxpWMuDHvJalwot5NueB2nH4Zr19h5kQoI9oCbVHCjy+tLgCbWRueGXn76KsCylJipbs8tk+6lSC22VSIrXjRxk7Q+AW6499VxYJdic7eamgJSaVuu3HzY/wC9WQoosHyRuds7cckc9D8c0RQM5yPM0dp0BnukXHdXrQeNzgCtBp1sYdOuLl4t24dmh956/SsYh+kYPsGvUNtH2TXaJjX2kHZXD2zk5VjHyf2T0+v41n9TtlTVY9w2rIeR5EkjH31pZm7SOz1AHhv1M394dD+H3Ut9LoGiMMu3HaDtF9x8fqKIvyKLJJe1HZMFmtt0+C2MBO9+NaJJNFk1q8je+gFrc2zsJgCFjlIDAYx1DDHzrOae7y3l5MyhTLaTjjpnbS9kYDBpL5KVwjYXF3pF36ETwERx6nbzBo2LEvKrDBHwGBWJ7NfVid67+0xsz3sY6/DmpSMTkefWoMpJx8+TRsyVml0aK1sNR0aVry3YSdk0rLLkRBhhg3HBAJyKO9H9OhkvdSiW5gNvFbSxvOzgJg8KRnzbbisduIVQfAdKdaFPjTtUjkbCMsAYk9B2y5pJT1XBTHjUnTISzCLTxYyyYUTGdQE3EEqFIPI8AOPCj3uoFsNK2SB23tGVC8jDDGfcd3HwNLSSkkjzLlslWYAEqfHrx40LO3q4iAGP1qyAZIwFzj387j9wpY5HY0scUrD9Gx2/ByDaN/8AY1L5mHazqeNzMQQP3qNsJUjlMkajabZsAt0Blb+NBEEyuQMksx2gVPqTZV+xIrywiIB4OTgj3U41Lm3tDn9iTk/3HpWV3RKPZ7hx+9TC4k7WCJcr3Ay4B55jc8ihfqTDXpa/ga+j2sw2FxHI6OexgydgzyU4x94oaPVphBdWUcgUXLKXDqAeGzjg8c+YpVFItxPLFEjBSqGNSc8qNuM/Ampd026LHFuIYkkeGT5fD/QqjySonHHEfzWrw+j9lcNIpj9ZkWTaeVYgYB+Sk/OnmuXuh39hp9mNRtR2dkqvI5OyNzkkHHUgms1qV1n0buYy4Yi+izg557J8/UVlBIdx2nA2ng1sc5STs2aEYtalcWDbyAkg90jjyOPzrZaPaej0/oLdyXepx2+rKrCKFnxv72eB7wBWNAIGPBqrPDHHw61VM52hvJFp4tbFUugxmmZrlQpzCo2gZ885Y8VZrNnbwSrNaXCXFjIxjgkUFSQuMkg9OtJM8flTSZt2gWKeVxN92FoNsySpg1vCpuo0PTx+v8q2eoRpbafZWAXDmPtJAT1Zun0xWf8ARuzF/q1vE44dxuPuHX6U61O/jn1ee5ljd4kydqnGAOg/CnFLP6NXfkn1rtI/6RP/ANN/8/8AOvVjGsEGyfUNHYkl/wBZAfMjkfeKsFh+ntC3bv6xBlcefn/+fvorS7GfWbG01S2P9ZsCIpQPEDlSfkcfKtFodgmm6tc22z9TqEeYieg3c4+/iqRVkpukfL44vVO3ibns4ZSDjw4FIpSS2a2+t6cLe9v488CBicf3hmsVcR7CDzt6VOcakysHcUykDJzVwQh13jGU3DnwqMa5PPStCLYf0YvpCP8AmWwz7v1prnnOjrxY3JNmacDcfcaJspNunaghGTIsQB8sPmhmTaQcn31fbFRbXKE95wpUY64bJot8E4rkvt7l0sp13EsgUJlQSozjg48qCdJA6S3CS7ZDuDPkbxnnnxpjBEv6PuY2IErEALkc4bz+X+sirLbT3nsppJJRuttrLE2f1iE97B9350uyRVwboqQiVViVGDRoqkbT9oEnnz5P3CqmjJJzxksQabzBpzbFpi0kuTK/O4kZHeJ8P5VG20s3MhiZlC7yOTU3IusbqhV2LKux0IYKdyspBB9/vogOImDyozrvQ4I4YYbI4Hv/ANYprrVk4u7ibtVlMrOxbfknLHn7vwr1pYu7GMNCEWBpizdAy7iOfPj60rmuwrG+jO9i0kmyJJHOzvBVz0HJxjiizduLFmEjdt2gG/HO3HnR0kNyk80sJkFxNGYyd3J3defePf4mgVgA0u4jdtsnaBlTI73H86psmS0kuAZZc6NPHkn+so3P91hS0sevjR3Zsun3KHiTtIzgEfvCg1QEDBzxVF+jmlfATHA8zpHGNzNwMH6UHKMtu8DyK03o1bdrpl42PZvLT38ZfP4CkE8ZUgEY48aEZ+qh543qmC9TxxxTHIbR7fw2XLrn4qDQGPLmmluko0VWjU8XoHnyUNVfNEV8heg6qNLiuZ0GZDGY0J8CfH7qGub2T1Ds2xm4OTxyQP50OYJFtoYljO5zuYY8+BUpdrXbFf7K2XHPjjj6mqEyH6Pm+ya9UPXp/t16hwY+8eilgdPvZ1iBGn6vCHt89VPVR8jx76nfzzS2MspULPpMoSRt4zgn8iPrXxSL0l1SEKvrkqhPZGen8KpbWbvvjt3zKcuM+0ffVIzoR49j6Z6Z2rJLeXq47K6sRKgyOAzJnPzzXzCdy3iQK8NYvuxkiFyQsq7XHHIBzgnwFBq7y5xnPgDUm222VikopBUTgsAWx8a2bKB6EXTgZHbQgnHksn8a+f8AaEHrg+WORRS6jeGzNu1zKIM57Pd3SQOOPma5suFzqmdeHPGCaaIZRpDvYY+f5VdDbIW3iaEJjo7EUGSdnaZXGdu3dzXm7RCyg8HqA3Bx9KrqQ3Q0su4WDzWxGeMy09stQgsmmMzWhEkOzhsgA+X0rIZZiig+1xnP5Vx852npt4LE+FI8KbstH6mo1Rt5dR0UwxhQm5VI3oG4OfPNCes2LODDdiDD8PsbKc8HrWTGdoVXJ2jI2n766qu0bOFYxjHfzxR8QPuP0bDVb3TrrU7y4edHgkO5EKEleBjjNV+vWESgW06plSCWQjGeoGT0rI9SdpLj4nvfKpd3BGWLEHA/L3VvEgfcM1Xr6zWiRrcWYKyHlnxkeeaT3wIBVLi13eay5pZhgVCt8h+Hx61xWY5Byce8HmgsKTsaX1LlGg1o4CMvNAWxz3iaDnEXd7IgnxOCPxr23HBYArnKk+X0NcxnPeTAz0PX4VRRIudm29DFA0DUpXHcWa1dj5BZefo1ZO/kiEpKuGAPBFRgvru2t5Y4bh1imG2SNWwDjzFDvnKkk8/aHj5VKOJqTbLZM6lBRS6OAbjxyK+hegemR39mkDRh29djIVjgZ2sOSa+eAncFU8kUba6ldW0ckcFw4jkKl1B6kfwyarTTVELjTT+T7rcLp73mpX8ulQG2tY+xePugg+yCcffWH1r0HWaDS10TPrOqOztbyOPZx3Sp8uDnNYU6tcsrp28m2T2gTwa4uqXsTRvHNImBuTnoMnnirvIn8HPGFdGr/wDDjVP+hL/krtZf+kWp/wDeyf5jXqXZD0z/2Q==" class="card-img-top" alt="ropa sucia real">
+        <div class="card-body">
+            <h5 class="card-title">Rammstein</h5>
+            <p class="card-text">Rammstein es una banda alemana de metal industrial fundada en 1994 por los músicos Till Lindemann, Richard Z. Kruspe, Oliver Riedel, Paul Landers, Christian Lorenz y Christoph Schneider. Suscribanse al canal</p>
+            <a href="https://www.youtube.com/watch?v=NeQM1c-XCDc&pp=ygUVcmFtbXN0ZWluIGRldXRzY2hsYW5k" class="btn btn-danger">Enlace a youtube</a>
+        </div>
+    </div>
+    <div class="card text-bg-warning mb-3" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEmZq3vOKPBp0M2lj0x8HM_FRMTYkCbsBY5Q&usqp=CAU" class="card-img-top" alt="Epica">
+        <div class="card-body">
+            <h5 class="card-title">Epica</h5>
+            <p class="card-text">Epica es una banda neerlandesa de metal sinfónico​​ fundada en el año 2002 por el compositor, guitarrista y vocalista Mark Jansen después de su salida de After Forever. Suscribanse al canal</p>
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiz_aOymraCAxUGm2oFHZuMAP4QwqsBegQINBAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDys1_TuUmI4&usg=AOvVaw1cowRNXUkobAlhmupuC2qQ&opi=89978449" class="btn btn-danger">Enlace a youtube</a>
+        </div>
+    </div>
+    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+        <img src="https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2023/10/05/3014681.jpg" class="card-img-top" alt="Evanescence">
+        <div class="card-body">
+            <h5 class="card-title">Evanescence</h5>
+            <p class="card-text">Evanescence es una banda estadounidense de rock fundada en Little Rock, Arkansas, en 1995 por la cantante, pianista y compositora Amy Lee y el guitarrista Ben Moody. Suscribanse al canal</p>
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiUyejQnLaCAxVpkWoFHRBhA7MQyCl6BAgZEAM&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5anLPw0Efmo&usg=AOvVaw3wTmI5lPm0nwKMqlezAdT-&opi=89978449" class="btn btn-danger">Enlace a youtube</a>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
